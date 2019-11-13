@@ -9,7 +9,7 @@ $floored5 = floor($modulo10 / 5);
 echo "$floored5 x €5,00". PHP_EOL;
 $modulo5 = $floored10 % 5;
 
-$floored2 = floor($waarde / 2);
+$floored2 = floor($floored5 / 2);
 echo "$floored2 x €2,00" . PHP_EOL;
 $modulo1 = $floored5 % 2;
 echo "$modulo1 x €1,00" . PHP_EOL;
